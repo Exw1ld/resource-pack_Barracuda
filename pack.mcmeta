@@ -1,6 +1,9 @@
 {
   "pack": {
-    "pack_format": 34,
-    "description": "Prefixes"
-  }
+    "pack_format": 32,
+    "min_format": [32,0],
+    "max_format": [999,0],
+    "supported_formats": [32, 999],
+    "description": "§6Barracuda §7[1.21.11+]"
+    }
 }
