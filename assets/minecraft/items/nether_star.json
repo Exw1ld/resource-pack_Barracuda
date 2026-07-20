@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "100002",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/custom_prototype"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/nether_star"
+    }
+  }
+}
